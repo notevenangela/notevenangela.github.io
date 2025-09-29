@@ -4,198 +4,48 @@
   <meta charset="UTF-8">
   <title>Angela Lian – Software Developer</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <style>
-    :root {
-      --bg: #ffffff;
-      --text: #222222;
-      --accent: #ff6f61;
-      --card: #f7f7f7;
-      --border: #e0e0e0;
-    }
-    @media (prefers-color-scheme: dark) {
-      :root {
-        --bg: #121212;
-        --text: #eeeeee;
-        --accent: #ff8a80;
-        --card: #1e1e1e;
-        --border: #333333;
-      }
-    }
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
-    body {
-      font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      background: var(--bg);
-      color: var(--text);
-      line-height: 1.6;
-    }
-    a {
-      color: var(--accent);
-      text-decoration: none;
-    }
-    header {
-      padding: 3rem 1rem 2rem;
-      text-align: center;
-    }
-    header img {
-      width: 120px;
-      height: 120px;
-      border-radius: 50%;
-      object-fit: cover;
-      border: 4px solid var(--accent);
-    }
-    h1 {
-      margin-top: 0.75rem;
-      font-size: 2rem;
-    }
-    .tagline {
-      font-size: 1.1rem;
-      opacity: 0.8;
-    }
-    .contact {
-      margin-top: 0.5rem;
-      display: flex;
-      gap: 1rem;
-      justify-content: center;
-      flex-wrap: wrap;
-    }
-    section {
-      max-width: 800px;
-      margin: 2rem auto;
-      padding: 0 1rem;
-    }
-    h2 {
-      margin-bottom: 0.5rem;
-      border-bottom: 2px solid var(--accent);
-      display: inline-block;
-    }
-    .card {
-      background: var(--card);
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      padding: 1rem;
-      margin-bottom: 1rem;
-    }
-    .skills {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.5rem;
-    }
-    .skills span {
-      background: var(--accent);
-      color: #fff;
-      padding: 0.25rem 0.75rem;
-      border-radius: 999px;
-      font-size: 0.85rem;
-    }
-    .projects {
-      display: grid;
-      gap: 1rem;
-      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    }
-    footer {
-      text-align: center;
-      padding: 2rem 1rem;
-      font-size: 0.8rem;
-      opacity: 0.6;
-    }
-  </style>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="nav-brand">Angela Lian</div>
+    <button class="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><button id="theme-toggle" aria-label="Toggle dark mode">🌓</button></li>
+    </ul>
+  </nav>
 
-<header>
-  <!-- Replace with your own photo -->
-  <img src="https://via.placeholder.com/300x300/ff6f61/ffffff?text=AL" alt="Angela Lian">
-  <h1>Angela Lian</h1>
-  <p class="tagline">Software Developer • Game & AI Enthusiast</p>
-  <div class="contact">
-    <a href="mailto:angelalian0205@gmail.com">Email</a>
-    <a href="tel:7186690226">718-669-0226</a>
-    <a href="https://linkedin.com/in/angelalian" target="_blank">LinkedIn</a>
-    <a href="https://github.com/angelalian" target="_blank">GitHub</a>
-  </div>
-</header>
-
-<section id="about">
-  <h2>About</h2>
-  <div class="card">
-    <p>
-      Dedicated <strong>Information Science</strong> major (GPA 3.76) at the University of North Florida,
-      specializing in <strong>software development, game development, and AI</strong>.
-      Proven leader in the Honors in Computing program and active member of <strong>Upsilon Pi Epsilon (UPE)</strong>.
-      Passionate about building innovative projects in dynamic environments.
-    </p>
-  </div>
-</section>
-
-<section id="skills">
-  <h2>Skills</h2>
-  <div class="card skills">
-    <span>C</span><span>Java</span><span>JavaScript</span><span>HTML/CSS</span><span>SQL/MySQL</span>
-    <span>Unity</span><span>Data Structures</span><span>OOP</span><span>VR Research</span>
-    <span>Fast Learner</span><span>Adaptability</span><span>Leadership</span>
-  </div>
-</section>
-
-<section id="education">
-  <h2>Education</h2>
-  <div class="card">
-    <strong>University of North Florida</strong> — B.S. Information Science<br>
-    <em>Aug 2022 – May 2026</em> | GPA: 3.76/4.0<br>
-    Honors in Computing Program Leader • UPE Member • VR Research Contributor
-  </div>
-</section>
-
-<section id="experience">
-  <h2>Experience</h2>
-  <div class="card">
-    <strong>General Manager — Jin Sushi Hibachi Thai</strong> (Aug 2017 – Present)<br>
-    • Lead 15+ restaurant staff; optimize scheduling & customer experience.<br>
-    • Manage P&L, budgeting, and inventory; boosted monthly profit margins by <strong>12%</strong>.<br>
-    • Resolved 50+ customer issues weekly, maintaining <strong>4.8/5</strong> online rating.
-  </div>
-</section>
-
-<section id="projects">
-  <h2>Projects</h2>
-  <div class="projects">
-    <div class="card">
-      <h3>VR Maze Explorer</h3>
-      <p>Unity & C# immersive 3D maze for UNF VR lab; tested with 30+ students.</p>
+  <!-- HERO -->
+  <header class="hero">
+    <img src="https://via.placeholder.com/200x200/ff6f61/ffffff?text=AL" alt="Angela Lian">
+    <h1>Angela Lian</h1>
+    <p class="tagline">Software Developer • Game & AI Enthusiast</p>
+    <div class="contact">
+      <a href="mailto:angelalian0205@gmail.com">Email</a>
+      <a href="tel:7186690226">718-669-0226</a>
+      <a href="https://linkedin.com/in/angelalian" target="_blank">LinkedIn</a>
+      <a href="https://github.com/angelalian" target="_blank">GitHub</a>
     </div>
-    <div class="card">
-      <h3>Course Tracker App</h3>
-      <p>Java & MySQL desktop app that visualizes graduation requirements.</p>
-    </div>
-    <div class="card">
-      <h3>Portfolio Site</h3>
-      <p>Responsive single-page site (HTML/CSS/JS) hosted on GitHub Pages.</p>
-    </div>
-  </div>
-</section>
+  </header>
 
-<section id="languages">
-  <h2>Languages</h2>
-  <div class="card">
-    <strong>American Sign Language</strong> – Highly Proficient<br>
-    <strong>Mandarin</strong> – Very Good Command
-  </div>
-</section>
+  <!-- SECTIONS -->
+  <main>
+    <section id="about" class="section"><div class="container card"><h2>About</h2><p>Dedicated <strong>Information Science</strong> major (GPA 3.76) at the University of North Florida, specializing in <strong>software development, game development, and AI</strong>. Honors in Computing leader and UPE member.</p></div></section>
+    <section id="skills" class="section"><div class="container card"><h2>Skills</h2><div class="skills"><span>C</span><span>Java</span><span>JavaScript</span><span>HTML/CSS</span><span>SQL/MySQL</span><span>Unity</span><span>Data Structures</span><span>OOP</span><span>VR Research</span><span>Leadership</span></div></div></section>
+    <section id="education" class="section"><div class="container card"><h2>Education</h2><strong>University of North Florida</strong> — B.S. Information Science<br><em>Aug 2022 – May 2026</em> | GPA: 3.76/4.0<br>Honors in Computing • UPE • VR Research</div></section>
+    <section id="experience" class="section"><div class="container card"><h2>Experience</h2><strong>General Manager — Jin Sushi Hibachi Thai</strong> (Aug 2017 – Present)<br>Lead 15+ staff; managed P&L, boosted profit 12%; maintained 4.8/5 rating.</div></section>
+    <section id="projects" class="section"><div class="container"><h2>Projects</h2><div class="projects"><div class="card"><h3>VR Maze Explorer</h3><p>Unity & C# 3D maze for UNF VR lab.</p></div><div class="card"><h3>Course Tracker</h3><p>Java & MySQL graduation planner.</p></div><div class="card"><h3>Portfolio Site</h3><p>Responsive vanilla-js site.</p></div></div></div></section>
+  </main>
 
-<footer>
-  © 2025 Angela Lian.
-</footer>
-
-<script>
-  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function (e) {
-      e.preventDefault();
-      document.querySelector(this.getAttribute('href')).scrollIntoView({ behavior: 'smooth' });
-    });
-  });
-</script>
+  <footer>© 2025 Angela Lian</footer>
+  <script src="app.js"></script>
 </body>
 </html>
