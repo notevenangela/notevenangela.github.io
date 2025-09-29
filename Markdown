@@ -1,0 +1,72 @@
+&lt;!-- Angela Lian – Portfolio --&gt;
+&lt;!-- Copy everything below this line --&gt;
+
+# Angela Lian  
+**Software Developer | Game & AI Enthusiast**  
+📍 St. Augustine, United States  
+📧 angelalian0205@gmail.com | 📱 718-669-0226  
+[LinkedIn](https://linkedin.com/in/angelalian) &lt;!-- placeholder --&gt;  
+[GitHub](https://github.com/angelalian) &lt;!-- placeholder --&gt;
+
+---
+
+## 🎯 Profile
+Dedicated **Information Science** major (GPA 3.76) at the University of North Florida, specializing in **software development, game development, and AI**.  
+Proven leader in the Honors in Computing program and active member of **Upsilon Pi Epsilon (UPE)**. Passionate about building innovative projects in dynamic environments.
+
+---
+
+## 🚀 Core Skills
+| Category        | Expertise Level |
+|-----------------|-----------------|
+| **Languages**   | C • Java • JavaScript • HTML/CSS • SQL (MySQL) |
+| **Frameworks**  | Object-Oriented Design • Data Structures • VR Research |
+| **Soft Skills** | Fast Learner • Adaptability • Effective Time Management • Team Leadership |
+| **Tools**       | Microsoft Office • Git & GitHub (assumed) |
+
+---
+
+## 🎓 Education
+**University of North Florida** — B.S. Information Science  
+*Aug 2022 – May 2026* | GPA: 3.76/4.0  
+Honors in Computing Program Leader • UPE Member • VR Research Contributor
+
+### Relevant Coursework
+- Programming in C *(Jan–May 2023)*
+- Object-Oriented Programming (Java) *(Jan–May 2024)*
+- Data Structures *(Aug–Dec 2024)*
+- Internet Programming (HTML, CSS, JS) *(Aug–Dec 2024)*
+- Databases (MySQL) *(Jan–May 2025)*
+
+---
+
+## 💼 Experience
+### General Manager — Jin Sushi Hibachi Thai
+*Aug 2017 – Present* | St. Augustine  
+- Lead 15+ restaurant staff; optimize scheduling & customer experience.  
+- Manage P&L, budgeting, and inventory; boosted monthly profit margins by **12%**.  
+- Resolved 50+ customer issues weekly, maintaining **4.8/5** online rating.
+
+---
+
+## 🗣 Languages
+- **American Sign Language** – Highly Proficient  
+- **Mandarin** – Very Good Command
+
+---
+
+## 📂 Projects (Add GitHub links when ready)
+| Project | Tech Stack | Description |
+|---------|------------|-------------|
+| **VR Maze Explorer** | Unity, C# | Built an immersive 3D maze for UNF VR research lab; tested with 30+ students. |
+| **Course Tracker App** | Java, MySQL | Desktop app that lets students plan and visualize graduation requirements. |
+| **Personal Portfolio Site** | HTML, CSS, JS | This page! Responsive and hosted on GitHub Pages. |
+
+---
+
+## 📬 Let’s Connect
+I’m currently seeking **2025 summer internships** in software development, game operations, or AI research.  
+Feel free to reach out via [email](mailto:angelalian0205@gmail.com) or connect on [LinkedIn](https://linkedin.com/in/angelalian).
+
+---
+© 2025 Angela Lian. Made with ❤️ and Markdown.
